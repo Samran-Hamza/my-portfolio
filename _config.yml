@@ -13,7 +13,7 @@ lang: en
 icon: ⚛️
 
 url: https://samran-hamza.github.io
-baseurl: ""
+baseurl: "/my-portfolio"
 last_updated: true
 back_to_top: true
 
