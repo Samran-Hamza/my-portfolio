@@ -126,7 +126,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-#    - al_folio_core
+  - al_folio_core
   - al_icons
   - al_folio_cv
   - al_folio_distill
