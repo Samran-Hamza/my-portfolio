@@ -1,0 +1,5 @@
+# List of GitHub usernames whose top repositories will be displayed
+github_users: [Samran-Hamza]
+
+# List of specific GitHub repositories to showcase (owner/repo format)
+github_repos: []

@@ -1,0 +1,207 @@
+cv:
+  name: Hamza Samran
+  label: Ingénieur Logiciel | Développeur Web & Android | Chef de Projet
+  email: hamzaasamran@gmail.com
+  location: Mohammedia, Casablanca, Maroc
+  image: prof_pic.jpg
+  summary: Ingénieur logiciel avec 3+ ans d'expérience dans la livraison d'applications web et mobiles et la gestion de projets techniques cross-fonctionnels dans un environnement international de l'enseignement supérieur. Base full-stack solide (HTML, CSS, JavaScript, React.js, PHP, Laravel, Python, Kotlin) associée à une gestion de projet Agile. Trilingue arabe, russe et français.
+
+  social_networks:
+    - network: LinkedIn
+      username: hamzasamran
+    - network: GitHub
+      username: hamzasmamran
+
+  address:
+    city: Mohammedia, Casablanca
+    region: Maroc
+    countryCode: MA
+
+  sections:
+    Education:
+      - institution: National University of Science and Technology MISIS
+        location: Moscou, Russie
+        url: https://en.misis.ru/
+        area: Informatique Appliquée
+        studyType: Master
+        start_date: 2023
+        end_date: 2025
+        score: ""
+        courses: ""
+        highlights:
+          - "Mémoire : application Android native (Kotlin) implémentant un système intelligent de recommandation d'université pour étudiants internationaux."
+
+      - institution: Ural Federal University
+        location: Iekaterinbourg, Russie
+        url: https://urfu.ru/en/
+        area: Informatique Appliquée
+        studyType: Licence
+        start_date: 2019
+        end_date: 2023
+        highlights: []
+
+    Experience:
+      - company: HSE University
+        position: Ingénieur Logiciel & Chef d'Équipe Projet
+        location: Moscou, Russie
+        start_date: 2024-07-01
+        end_date: ""
+        summary: ""
+        highlights:
+          - "Technologies : Kotlin, Android Studio, HTML5/CSS3/JavaScript, Bitrix24, Python, FastAPI, Telegram Bot API, SQL, Power BI, 1C: Enterprise, Jira."
+          - "Application Android en Kotlin : gestion d'état, appels réseau asynchrones, tests unitaires, builds de validation croisée sur iOS via TestFlight."
+          - "Widgets front-end en HTML5/CSS3/JavaScript intégrés au CMS Bitrix24 : calendrier interactif en accordéon (fetch API, manipulation du DOM), catalogue de programmes structuré en array JS avec filtrage côté client, pages multilingues à rendu conditionnel."
+          - "API backend en Python/FastAPI pour exposer les données des programmes universitaires à l'application mobile : endpoints REST, sérialisation JSON, validation des requêtes via Pydantic."
+          - "Bots Telegram en Python (Telegram Bot API) : gestion des webhooks, traitement des commandes utilisateur, réponses automatisées — plus de 2 000 utilisateurs actifs."
+          - "Requêtes SQL et construction de tableaux de bord Power BI sur des données d'admission pluriannuelles, pour le reporting décisionnel."
+          - "Configuration et personnalisation de modules 1C: Enterprise (ERP) pour la gestion des dossiers étudiants et les workflows financiers internes."
+          - "Gestion de projet en méthodologie Agile/Scrum via Jira : sprints de 2 semaines, backlog priorisé, coordination technique cross-fonctionnelle."
+
+      - company: Masar Tourism
+        position: Développeur Web & Android (Freelance)
+        location: Moscou, Russie
+        start_date: 2023-08-01
+        end_date: 2023-12-01
+        highlights:
+          - "Technologies : React.js, Material UI (MUI), JavaScript, Webpack, CSS3."
+          - "Développement d'une plateforme web en React.js et Material UI : composants réutilisables, gestion d'état via hooks (useState, useEffect, useContext), routing côté client avec React Router."
+          - "Intégration d'API externes pour la réservation et l'affichage dynamique des guides de destinations."
+          - "Implémentation complète du support RTL (right-to-left) pour l'interface arabe : adaptation CSS (flexbox/grid en mode inversé), gestion bidirectionnelle du texte, logique de bascule LTR/RTL."
+          - "Optimisation des performances via Webpack : code splitting, lazy loading des composants, réduction de la taille du bundle final pour améliorer les temps de chargement."
+
+      - company: CM3Shirts
+        position: Ingénieur Web
+        location: Casablanca, Maroc
+        start_date: 2023-01-01
+        end_date: 2023-06-01
+        highlights:
+          - "Technologies : Laravel, PHP, MySQL, HTML/CSS/JavaScript."
+          - "Développement d'une plateforme e-commerce complète avec Laravel (PHP) et MySQL, suivant le pattern MVC : contrôleurs, modèles Eloquent, migrations et seeders de base de données."
+          - "Conception d'un schéma de base de données relationnelle pour la gestion des stocks, commandes et clients."
+          - "Écriture de requêtes SQL optimisées pour les rapports de vente et le suivi des stocks."
+          - "Mise en place de routes API REST pour la communication entre le back-office administrateur et le front-end."
+
+      - company: K Telecom
+        position: Stagiaire Ingénieur Réseau
+        location: Iekaterinbourg, Russie
+        start_date: 2022-02-01
+        end_date: 2022-06-01
+        highlights:
+          - "Technologies : VRRP, adressage IP, eNSP (simulation réseau)."
+          - "Configuration du protocole VRRP (Virtual Router Redundancy Protocol) et adressage IP de sous-interfaces pour des topologies réseau redondantes."
+          - "Déploiement et test d'un serveur HTTP en environnement simulé (eNSP)."
+          - "Production de schémas réseau et documentation technique de topologie pour les projets d'infrastructure."
+
+      - company: Woodbag
+        position: Spécialiste WordPress (Stage)
+        location: Iekaterinbourg, Russie
+        start_date: 2020-01-01
+        end_date: 2020-06-01
+        highlights:
+          - "Technologies : WordPress, PHP, HTML/CSS/JavaScript."
+          - "Refonte technique d'un site WordPress existant : optimisation des performances (mise en cache, compression d'images), amélioration de la stabilité."
+          - "Intégration de plugins SEO et sécurité, personnalisation de thèmes et templates PHP/HTML/CSS/JavaScript."
+
+    Publications:
+      - title: "How to Choose a Russian University: Intelligent System Support for International Students"
+        authors:
+          - M.A.M. Muaamar
+          - L.V. Kruglova
+          - H. Samran
+          - N.V. Papulovskaya
+        publisher: "1re Conférence Internationale « Digitalization of Management in Organizational Systems »"
+        releaseDate: 2025-12-01
+        url: ""
+        summary: "ISBN 978-5-7996-4114-6, Iekaterinbourg, décembre 2025."
+
+    Skills:
+      - name: Programmation & Web
+        level: Avancé
+        icon: fa-solid fa-code
+        keywords: "HTML, CSS, JavaScript, React.js, PHP, Laravel, Python, Kotlin, SQL"
+
+      - name: Gestion de projet
+        level: Avancé
+        icon: fa-solid fa-diagram-project
+        keywords: "Agile, Scrum, planification de sprints, gestion des parties prenantes, Jira"
+
+      - name: Contrôle de version & DevOps
+        level: Avancé
+        icon: fa-brands fa-git-alt
+        keywords: "Git, GitHub, Webpack"
+
+      - name: CRM & Bases de données
+        level: Intermédiaire
+        icon: fa-solid fa-database
+        keywords: "amoCRM, SQL, MS SQL, MongoDB, PostgreSQL"
+
+      - name: Design & CMS
+        level: Intermédiaire
+        icon: fa-solid fa-palette
+        keywords: "Figma, WordPress, WooCommerce, Bitrix24"
+
+      - name: Systèmes d'entreprise
+        level: Intermédiaire
+        icon: fa-solid fa-building
+        keywords: "1C: Enterprise 8, 1C: CRM PROF"
+
+      - name: Données & Analytique
+        level: Avancé
+        icon: fa-solid fa-chart-line
+        keywords: "Excel avancé, macros VBA, Power BI, reporting statistique"
+
+    Languages:
+      - name: Arabe
+        summary: "Langue maternelle"
+
+      - name: Français
+        summary: "Courant"
+
+      - name: Russe
+        summary: "Courant"
+
+      - name: Anglais
+        summary: "Intermédiaire"
+
+    Certificates:
+      - name: Course SCALA
+        date: 2025-01-01
+        issuer: T-BANK
+        icon: fa-solid fa-certificate
+
+      - name: Front-End Expert Certification
+        date: 2023-01-01
+        issuer: AlgoExpert
+        icon: fa-solid fa-certificate
+
+      - name: Développement Android avec Kotlin
+        date: 2022-01-01
+        issuer: "Android Studio – Formation d'un an, ITMO University, Saint-Pétersbourg"
+        icon: fa-solid fa-certificate
+
+    Projects:
+      - name: Masar Tourism – Plateforme de voyage
+        summary: "Plateforme de voyage (React.js, MUI) : guides de destinations, planification d'itinéraires, réservation."
+        highlights:
+          - React.js
+          - MUI
+          - Support RTL (arabe)
+        start_date: 2023-08-01
+        end_date: 2023-12-01
+
+      - name: UniPath AI
+        summary: "Application Android du mémoire de Master (Kotlin, Android Studio) : application native implémentant un système intelligent de recommandation pour aider les étudiants internationaux à choisir une université."
+        highlights:
+          - Kotlin
+          - Android Studio
+        start_date: 2024-09-01
+        end_date: 2025-07-01
+
+      - name: maShop!
+        summary: "Boutique en ligne (WordPress/WooCommerce) : catalogue produits marocains, tunnel de paiement (intégration API DEPAY) et personnalisation du site."
+        highlights:
+          - WordPress
+          - WooCommerce
+          - API DEPAY
+        start_date: 2023-01-01
+        end_date: 2023-06-01

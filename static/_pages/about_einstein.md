@@ -1,0 +1,3 @@
+Ingénieur logiciel avec **3+ ans d'expérience** dans la livraison d'applications web et mobiles et la gestion de projets techniques cross-fonctionnels au sein d'un environnement international de l'enseignement supérieur. Base full-stack solide (**HTML, CSS, JavaScript, React.js, PHP, Laravel, Python, Kotlin**) associée à une gestion de projet Agile et à la coordination de parties prenantes. Actuellement basé à Moscou, en cours de relocalisation vers le Maroc.
+
+Trilingue arabe, russe et français, avec une forte capacité à apprendre rapidement de nouveaux frameworks et technologies.

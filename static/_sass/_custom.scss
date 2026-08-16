@@ -1,0 +1,201 @@
+// -----------------------------------------------------------------------------
+// Custom blog & image styling
+// -----------------------------------------------------------------------------
+
+.img-fluid.rounded.z-depth-1 {
+    border-radius: 14px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12) !important;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  
+    &:hover {
+      transform: translateY(-4px) scale(1.01);
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18) !important;
+    }
+  }
+  
+  .caption {
+    font-size: 0.85rem;
+    color: #888;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+  
+  .post-content {
+    line-height: 1.75;
+    font-size: 1.05rem;
+  
+    h2 {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+  
+    p {
+      margin-bottom: 1.25rem;
+    }
+  }
+  
+  .post-content a {
+    border-bottom: 1px solid rgba(100, 150, 255, 0.4);
+    text-decoration: none;
+    transition: border-color 0.2s ease;
+  
+    &:hover {
+      border-color: rgba(100, 150, 255, 1);
+    }
+  }
+  
+  .post-preview {
+    padding: 1.5rem 0;
+    transition: transform 0.2s ease;
+  
+    &:hover {
+      transform: translateX(4px);
+    }
+  }
+  .cv .date-column {
+    min-width: 140px;
+  }
+  
+  .cv .badge {
+    white-space: normal !important;
+    font-size: 0.72rem !important;
+    line-height: 1.2;
+    padding: 0.4em 0.6em !important;
+  }
+  
+  @media (min-width: 768px) {
+    .cv .col-md-2 {
+      flex: 0 0 20% !important;
+      max-width: 20% !important;
+    }
+    .cv .col-md-10 {
+      flex: 0 0 80% !important;
+      max-width: 80% !important;
+    }
+  }
+  .cv .date-column::before,
+.cv .date-column::after {
+  display: none !important;
+}
+
+.cv li.list-group-item::marker {
+  display: none !important;
+}
+
+.cv .date-column {
+  position: relative;
+}
+
+.cv .date-column > *::before {
+  content: none !important;
+}
+// CV: центрируем дату и убираем декоративную точку
+.cv .date-column {
+    text-align: center !important;
+  }
+  
+  .cv .date-column,
+  .cv .date-column *,
+  .cv .table-cv,
+  .cv .table-cv * {
+    &::before,
+    &::after {
+      content: none !important;
+      display: none !important;
+    }
+  }
+  
+  .cv .date-column table,
+  .cv .date-column tbody,
+  .cv .date-column tr,
+  .cv .date-column td {
+    list-style: none !important;
+  }
+  
+  .cv li.list-group-item {
+    list-style-type: none !important;
+  
+    &::marker {
+      content: none !important;
+    }
+  }
+
+  .simple-carousel {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #1a1a1a;
+  }
+  
+  .simple-carousel-track {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+  
+      &.active {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+  
+  .simple-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 4px;
+  
+    &:hover {
+      background: rgba(0, 0, 0, 0.8);
+    }
+  
+    &.prev {
+      left: 10px;
+    }
+  
+    &.next {
+      right: 10px;
+    }
+  }
+  
+  .simple-carousel-counter {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+  }
+
+  .uniform-img {
+    height: 280px;
+    width: 100%;
+    object-fit: contain;
+    background-color: #1a1a1a;
+    cursor: pointer;
+  }
