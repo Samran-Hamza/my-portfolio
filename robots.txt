@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://samran-hamza.github.io/my-portfolio/sitemap.xml
+User-agent: * Disallow: Sitemap: https://hamzasamran.tech/sitemap.xml
